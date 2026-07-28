@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<title>الأخوه اورجينال | أحذية رياضية أصلية</title>
+<meta name="description" content="الأخوه اورجينال للأحذية الرياضية الأصلية – جري، كرة قدم، كاجوال. مصطفى وعبدالله." />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://sharifmustafa154-dot.github.io/Mustafa-and-Abdullah/" />
+<meta property="og:title" content="الأخوه اورجينال | أحذية رياضية أصلية" />
+<meta property="og:description" content="الأخوه اورجينال للأحذية الرياضية الأصلية – جري، كرة قدم، كاجوال. مصطفى وعبدالله." />
+<meta property="og:image" content="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/80f38552-0058-4830-911c-90660fd5deb7.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="1200" />
+<meta property="og:locale" content="ar_AR" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="الأخوه اورجينال | أحذية رياضية أصلية" />
+<meta name="twitter:description" content="الأخوه اورجينال للأحذية الرياضية الأصلية – جري، كرة قدم، كاجوال." />
+<meta name="twitter:image" content="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/80f38552-0058-4830-911c-90660fd5deb7.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;800;900&family=Tajawal:wght@400;500;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<style>
+  :root{
+    --ink:#14161B;
+    --ink-soft:#1E2129;
+    --chalk:#F4F2EC;
+    --chalk-dim:#E7E4DA;
+    --track:#E14E2A;
+    --track-dark:#C23F1E;
+    --bib:#F2B705;
+    --steel:#767C88;
+    --line: rgba(244,242,236,0.12);
+    --radius-sm: 6px;
+    --radius-md: 12px;
+  }
+
+  *{ margin:0; padding:0; box-sizing:border-box; }
+
+  html{ scroll-behavior:smooth; }
+
+  body{
+    background:var(--chalk);
+    color:var(--ink);
+    font-family:'Tajawal', 'Segoe UI', sans-serif;
+    direction:rtl;
+    overflow-x:hidden;
+    -webkit-tap-highlight-color:transparent;
+  }
+
+  h1,h2,h3,h4{ font-family:'Cairo', 'Tajawal', sans-serif; }
+
+  a{ color:inherit; }
+
+  .num-face{ font-family:'Oswald', sans-serif; direction:ltr; unicode-bidi:isolate; }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ animation-duration:0.01ms !important; animation-iteration-count:1 !important; scroll-behavior:auto !important; }
+  }
+
+  .top-bar{
+    background:var(--ink);
+    color:var(--chalk);
+    position:sticky; top:0; z-index:1000;
+    border-bottom:1px solid var(--line);
+  }
+  .top-bar-inner{
+    max-width:1200px; margin:0 auto;
+    display:flex; align-items:center; justify-content:space-between;
+    gap:10px; padding:10px 16px;
+  }
+  .brand-mark{
+    display:flex; align-items:center; gap:10px;
+    text-decoration:none; color:var(--chalk);
+    flex-shrink:0;
+  }
+  .brand-mark .badge{
+    width:36px; height:36px; border-radius:50%;
+    background:var(--track);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Cairo',sans-serif; font-weight:900; font-size:1rem;
+    color:var(--chalk);
+    position:relative;
+    box-shadow:0 0 0 2px var(--bib);
+  }
+  .brand-mark .badge::after{
+    content:''; position:absolute; top:2px; right:50%; transform:translateX(50%);
+    width:4px; height:4px; border-radius:50%; background:var(--ink);
+  }
+  .brand-mark .name{ font-weight:800; font-size:0.95rem; letter-spacing:0.5px; }
+
+  .top-actions{ display:flex; align-items:center; gap:6px; }
+  .top-actions a{
+    width:34px; height:34px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    background:rgba(244,242,236,0.06);
+    text-decoration:none; font-size:1rem;
+    transition:background .2s, transform .15s;
+  }
+  .top-actions a:active{ transform:scale(0.92); }
+  .top-actions .whatsapp i{ color:#25D366; }
+  .top-actions .facebook i{ color:#5B8DEF; }
+  .top-actions .instagram i{ color:#E4405F; }
+  .top-actions .phone i{ color:var(--bib); }
+  .top-actions .whatsapp-channel i{ color:#25D366; }
+
+  .phone-strip{
+    display:none;
+    align-items:center; gap:14px;
+    font-size:0.72rem; color:var(--steel);
+    border-top:1px solid var(--line);
+    padding:6px 16px; max-width:1200px; margin:0 auto;
+  }
+  .phone-strip .num span{ color:var(--bib); font-weight:600; margin-inline-start:4px; }
+  @media (min-width:560px){ .phone-strip{ display:flex; } }
+
+  .ticker{
+    background:var(--track);
+    border-bottom:1px solid rgba(0,0,0,0.15);
+    overflow:hidden;
+    position:sticky; top:57px; z-index:900;
+  }
+  @media (min-width:560px){ .ticker{ top:90px; } }
+  .ticker-track{
+    display:flex; width:max-content;
+    animation:ticker-scroll 26s linear infinite;
+  }
+  .ticker-track span{
+    display:flex; align-items:center; gap:8px;
+    white-space:nowrap; padding:9px 26px;
+    color:var(--chalk); font-weight:700; font-size:0.82rem;
+    letter-spacing:0.5px;
+    border-inline-start:1px solid rgba(244,242,236,0.25);
+  }
+  .ticker-track span i{ color:var(--bib); font-size:0.75rem; }
+  @keyframes ticker-scroll{
+    0%{ transform:translateX(0); }
+    100%{ transform:translateX(-50%); }
+  }
+
+  .hero{
+    background:var(--ink);
+    color:var(--chalk);
+    padding:44px 16px 40px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::before{
+    content:'';
+    position:absolute; inset:0;
+    background:
+      repeating-linear-gradient(90deg, transparent 0 38px, rgba(244,242,236,0.035) 38px 40px);
+    pointer-events:none;
+  }
+  .hero-inner{
+    max-width:900px; margin:0 auto; position:relative; text-align:center;
+  }
+  .hero .eyebrow{
+    display:inline-flex; align-items:center; gap:8px;
+    font-family:'Oswald',sans-serif; font-size:0.72rem; letter-spacing:2px;
+    color:var(--bib); text-transform:uppercase;
+    border:1px solid rgba(242,183,5,0.4); border-radius:20px;
+    padding:5px 14px; margin-bottom:18px;
+  }
+  .hero h1{
+    font-size:2.6rem; font-weight:900; line-height:1.1; margin-bottom:10px;
+  }
+  .hero .tagline{
+    font-size:1.05rem; color:var(--bib); font-weight:700; margin-bottom:14px;
+  }
+  .hero p{
+    color:#C9CBD3; font-size:0.95rem; line-height:1.8; max-width:520px; margin:0 auto 26px;
+  }
+  .hero-ctas{
+    display:flex; flex-wrap:wrap; justify-content:center; gap:10px;
+  }
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:12px 22px; border-radius:var(--radius-sm);
+    font-weight:700; font-size:0.9rem; text-decoration:none;
+    transition:transform .15s, box-shadow .2s;
+  }
+  .btn:active{ transform:scale(0.97); }
+  .btn-primary{ background:#25D366; color:#0b3b22; }
+  .btn-primary:hover{ box-shadow:0 6px 18px rgba(37,211,102,0.35); }
+  .btn-outline{
+    background:transparent; color:var(--chalk);
+    border:1px solid rgba(244,242,236,0.35);
+  }
+  .btn-outline:hover{ border-color:var(--bib); color:var(--bib); }
+  .btn-channel{
+    background:#25D366; color:#0b3b22;
+  }
+  .btn-channel:hover{ box-shadow:0 6px 18px rgba(37,211,102,0.35); }
+
+  .video-section{ padding:36px 16px 8px; max-width:900px; margin:0 auto; }
+  .section-eyebrow{
+    font-family:'Oswald',sans-serif; font-size:0.72rem; letter-spacing:2px;
+    color:var(--track); text-transform:uppercase; font-weight:600;
+    display:flex; align-items:center; gap:8px; margin-bottom:6px;
+  }
+  .section-eyebrow::after{ content:''; flex:1; height:1px; background:var(--chalk-dim); }
+  .video-container{
+    border-radius:var(--radius-md);
+    overflow:hidden;
+    background:var(--ink);
+    box-shadow:0 10px 30px rgba(20,22,27,0.18);
+  }
+  .video-container video{
+    width:100%; display:block; max-height:52vh; object-fit:cover;
+  }
+
+  .gallery{ max-width:1200px; margin:0 auto; padding:40px 16px 10px; }
+  .gallery-heading{ text-align:center; margin-bottom:22px; }
+  .gallery-heading h2{
+    font-size:1.7rem; font-weight:900; color:var(--ink); margin-bottom:6px;
+  }
+  .gallery-heading p{ color:var(--steel); font-size:0.85rem; }
+
+  .gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:12px;
+  }
+  @media (min-width:560px){ .gallery-grid{ grid-template-columns:repeat(3,1fr); gap:16px; } }
+  @media (min-width:900px){ .gallery-grid{ grid-template-columns:repeat(5,1fr); } }
+
+  .card{
+    background:#fff;
+    border-radius:var(--radius-md);
+    overflow:hidden;
+    border:1px solid var(--chalk-dim);
+    position:relative;
+    transition:transform .18s ease, box-shadow .18s ease;
+    opacity:0; transform:translateY(14px);
+    cursor:pointer;
+  }
+  .card.is-visible{ opacity:1; transform:translateY(0); transition:opacity .5s ease, transform .5s ease; }
+  .card:active{ transform:scale(0.97); }
+  @media (hover:hover){
+    .card:hover{ box-shadow:0 12px 26px rgba(20,22,27,0.14); transform:translateY(-3px); }
+  }
+
+  .card .tag{
+    position:absolute; top:10px; inset-inline-start:10px;
+    background:var(--ink); color:var(--bib);
+    font-family:'Oswald',sans-serif; font-size:0.7rem; font-weight:600;
+    padding:3px 9px 3px 7px; border-radius:4px;
+    display:flex; align-items:center; gap:5px;
+    z-index:2;
+    pointer-events:none;
+  }
+  .card .tag::before{
+    content:''; width:5px; height:5px; border-radius:50%; background:var(--chalk);
+  }
+  .card img{
+    width:100%; aspect-ratio:1/1; object-fit:cover; display:block; background:var(--chalk-dim);
+    pointer-events:none;
+  }
+  .card .card-body{ padding:10px 10px 12px; pointer-events:none; }
+  .card .card-body h4{
+    font-size:0.82rem; font-weight:700; color:var(--ink); margin-bottom:3px;
+  }
+  .card .card-body p{
+    color:var(--steel); font-size:0.72rem;
+  }
+
+  .lightbox{
+    display:none;
+    position:fixed; top:0; left:0; width:100%; height:100%;
+    background:rgba(0,0,0,0.92);
+    z-index:9999;
+    justify-content:center; align-items:center;
+    cursor:pointer;
+    padding:20px;
+  }
+  .lightbox.active{
+    display:flex;
+    animation:fadeIn .3s ease;
+  }
+  .lightbox img{
+    max-width:95%; max-height:90vh;
+    object-fit:contain;
+    border-radius:8px;
+    box-shadow:0 20px 60px rgba(0,0,0,0.6);
+  }
+  .lightbox .close-lightbox{
+    position:absolute; top:20px; right:20px;
+    color:white; font-size:2.5rem;
+    font-weight:300; cursor:pointer;
+    background:rgba(0,0,0,0.5);
+    width:50px; height:50px;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    transition:background .2s;
+    border:none;
+  }
+  .lightbox .close-lightbox:hover{
+    background:rgba(255,255,255,0.15);
+  }
+  .lightbox .lightbox-caption{
+    position:absolute; bottom:30px; left:50%; transform:translateX(-50%);
+    color:white; font-size:1rem;
+    background:rgba(0,0,0,0.6);
+    padding:8px 24px;
+    border-radius:30px;
+    text-align:center;
+    font-family:'Tajawal',sans-serif;
+  }
+  @keyframes fadeIn{
+    from{ opacity:0; transform:scale(0.95); }
+    to{ opacity:1; transform:scale(1); }
+  }
+
+  footer{
+    background:var(--ink); color:var(--chalk);
+    margin-top:48px; padding:38px 16px 22px;
+    text-align:center;
+  }
+  footer .badge{
+    width:44px; height:44px; border-radius:50%;
+    background:var(--track); color:var(--chalk);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Cairo',sans-serif; font-weight:900; font-size:1.2rem;
+    margin:0 auto 12px; box-shadow:0 0 0 3px var(--bib);
+  }
+  footer .brand{ font-family:'Cairo',sans-serif; font-weight:900; font-size:1.3rem; }
+  footer .brand span{ color:var(--track); }
+  footer .sub{ color:#B9BBC4; font-size:0.85rem; margin:6px 0 18px; }
+
+  footer .foot-ctas{ display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-bottom:20px; }
+  footer .foot-ctas a{
+    display:flex; align-items:center; justify-content:center;
+    width:40px; height:40px; border-radius:50%;
+    background:rgba(244,242,236,0.06); text-decoration:none;
+  }
+  footer .foot-ctas .whatsapp i{ color:#25D366; }
+  footer .foot-ctas .facebook i{ color:#5B8DEF; }
+  footer .foot-ctas .instagram i{ color:#E4405F; }
+  footer .foot-ctas .whatsapp-channel i{ color:#25D366; }
+
+  footer .copy{
+    font-size:0.72rem; color:var(--steel);
+    border-top:1px solid var(--line); padding-top:16px;
+  }
+
+  @media (min-width:640px){
+    .hero h1{ font-size:3.4rem; }
+    .hero p{ font-size:1rem; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <a href="#top" class="brand-mark">
+        <span class="badge">أ</span>
+        <span class="name">الأخوه اورجينال</span>
+      </a>
+      <div class="top-actions">
+        <a href="https://wa.me/201015288351" target="_blank" rel="noopener" class="whatsapp" title="واتساب مصطفى"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://whatsapp.com/channel/0029VbCVnRQIiRou2VTMPY1q" target="_blank" rel="noopener" class="whatsapp-channel" title="قناة واتساب"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com/share/1KJeyk148F/" target="_blank" rel="noopener" class="facebook" title="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/mostafa_abo_ali__store" target="_blank" rel="noopener" class="instagram" title="إنستجرام"><i class="fab fa-instagram"></i></a>
+        <a href="tel:+201015288351" class="phone" title="اتصال مصطفى"><i class="fas fa-phone-alt"></i></a>
+      </div>
+    </div>
+    <div class="phone-strip">
+      <span class="num"><i class="fas fa-user"></i> مصطفى <span class="num-face">01015288351</span></span>
+      <span class="num"><i class="fas fa-broadcast"></i> قناة واتساب</span>
+    </div>
+  </div>
+
+  <div class="ticker">
+    <div class="ticker-track">
+      <span><i class="fas fa-certificate"></i> أحذية أصلية</span>
+      <span><i class="fas fa-person-running"></i> جري</span>
+      <span><i class="fas fa-futbol"></i> كرة قدم</span>
+      <span><i class="fas fa-shoe-prints"></i> كاجوال</span>
+      <span><i class="fas fa-heart"></i> صنع بأخوة</span>
+      <span><i class="fas fa-certificate"></i> أحذية أصلية</span>
+      <span><i class="fas fa-person-running"></i> جري</span>
+      <span><i class="fas fa-futbol"></i> كرة قدم</span>
+      <span><i class="fas fa-shoe-prints"></i> كاجوال</span>
+      <span><i class="fas fa-heart"></i> صنع بأخوة</span>
+    </div>
+  </div>
+
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <span class="eyebrow">مصطفى &amp; عبدالله</span>
+      <h1>الأخوه اورجينال</h1>
+      <div class="tagline">للأحذية الرياضية الأصلية</div>
+      <p>تشكيلة مختارة من أحذية الجري وكرة القدم والكاجوال، بضمان الأصالة وتواصل مباشر مع صاحبَي المتجر.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://wa.me/201015288351" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> راسل مصطفى</a>
+        <a class="btn btn-channel" href="https://whatsapp.com/channel/0029VbCVnRQIiRou2VTMPY1q" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> قناة الواتساب</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="video-section">
+    <div class="section-eyebrow">شاهد المنتج</div>
+    <div class="video-container">
+      <video controls autoplay muted playsinline>
+        <source src="https://www.dropbox.com/scl/fi/q54chl5xrinta7d1lrbtx/VID-20260728-WA0011.mp4?rlkey=l15la6h1d5vukmu284cpi3ljs&st=ile18um3&dl=1" type="video/mp4">
+        <source src="https://www.dropbox.com/scl/fi/q54chl5xrinta7d1lrbtx/VID-20260728-WA0011.mp4?rlkey=l15la6h1d5vukmu284cpi3ljs&st=ile18um3&dl=0" type="video/mp4">
+        متصفحك لا يدعم تشغيل الفيديو.
+      </video>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="gallery-heading">
+      <h2>🏆 تشكيلة الرجالي</h2>
+      <p>أحذية رياضية – جري – كرة قدم – كاجوال</p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="card" data-img="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/80f38552-0058-4830-911c-90660fd5deb7.jpg" data-name="الأخوه اورجينال 1">
+        <span class="tag num-face">01</span>
+        <img src="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/80f38552-0058-4830-911c-90660fd5deb7.jpg" alt="حذاء رجالي 1" loading="lazy">
+        <div class="card-body"><h4>الأخوه اورجينال 1</h4><p>جري - أسود</p></div>
+      </div>
+      <div class="card" data-img="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/17d1bf45-7225-4cb1-b4b2-3e85d9869d65.jpg" data-name="الأخوه اورجينال 2">
+        <span class="tag num-face">02</span>
+        <img src="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/17d1bf45-7225-4cb1-b4b2-3e85d9869d65.jpg" alt="حذاء رجالي 2" loading="lazy">
+        <div class="card-body"><h4>الأخوه اورجينال 2</h4><p>كاجوال - أبيض</p></div>
+      </div>
+      <div class="card" data-img="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/abdd90fc-be3e-43de-a81f-6bff5deaed8a.jpg" data-name="الأخوه اورجينال 3">
+        <span class="tag num-face">03</span>
+        <img src="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/abdd90fc-be3e-43de-a81f-6bff5deaed8a.jpg" alt="حذاء رجالي 3" loading="lazy">
+        <div class="card-body"><h4>الأخوه اورجينال 3</h4><p>كرة قدم - أحمر</p></div>
+      </div>
+      <div class="card" data-img="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/6a6138b9-e2bb-4959-8453-eaa2333d1f42.jpg" data-name="الأخوه اورجينال 4">
+        <span class="tag num-face">04</span>
+        <img src="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/6a6138b9-e2bb-4959-8453-eaa2333d1f42.jpg" alt="حذاء رجالي 4" loading="lazy">
+        <div class="card-body"><h4>الأخوه اورجينال 4</h4><p>تمارين - رمادي</p></div>
+      </div>
+      <div class="card" data-img="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/37e8b467-6203-44fe-b58a-a1773d869b08.jpg" data-name="الأخوه اورجينال 5">
+        <span class="tag num-face">05</span>
+        <img src="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/37e8b467-6203-44fe-b58a-a1773d869b08.jpg" alt="حذاء رجالي 5" loading="lazy">
+        <div class="card-body"><h4>الأخوه اورجينال 5</h4><p>جري - أزرق</p></div>
+      </div>
+      <div class="card" data-img="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/12ef74f1-604b-4786-a459-a76dfe4306fd.jpg" data-name="الأخوه اورجينال 6">
+        <span class="tag num-face">06</span>
+        <img src="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/12ef74f1-604b-4786-a459-a76dfe4306fd.jpg" alt="حذاء رجالي 6" loading="lazy">
+        <div class="card-body"><h4>الأخوه اورجينال 6</h4><p>جري - برتقالي</p></div>
+      </div>
+      <div class="card" data-img="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/7846a797-e34a-4fa1-977c-902c8fd2cfaa.jpg" data-name="الأخوه اورجينال 7">
+        <span class="tag num-face">07</span>
+        <img src="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/7846a797-e34a-4fa1-977c-902c8fd2cfaa.jpg" alt="حذاء رجالي 7" loading="lazy">
+        <div class="card-body"><h4>الأخوه اورجينال 7</h4><p>كاجوال - بيج</p></div>
+      </div>
+      <div class="card" data-img="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/ec031f3b-db6b-46b5-906e-06d35e7110ef.jpg" data-name="الأخوه اورجينال 8">
+        <span class="tag num-face">08</span>
+        <img src="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/ec031f3b-db6b-46b5-906e-06d35e7110ef.jpg" alt="حذاء رجالي 8" loading="lazy">
+        <div class="card-body"><h4>الأخوه اورجينال 8</h4><p>جري - أسود مطفي</p></div>
+      </div>
+      <div class="card" data-img="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/aa226e2d-965c-48d4-8c62-ba1be978ca65.jpg" data-name="الأخوه اورجينال 9">
+        <span class="tag num-face">09</span>
+        <img src="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/aa226e2d-965c-48d4-8c62-ba1be978ca65.jpg" alt="حذاء رجالي 9" loading="lazy">
+        <div class="card-body"><h4>الأخوه اورجينال 9</h4><p>كرة قدم - أبيض</p></div>
+      </div>
+      <div class="card" data-img="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/46e2b35e-cc0e-47eb-bd8b-ad2ef3619ba4.jpg" data-name="الأخوه اورجينال 10">
+        <span class="tag num-face">10</span>
+        <img src="https://i.supaimg.com/6a853e10-0715-4079-9490-beb2645fc8b3/46e2b35e-cc0e-47eb-bd8b-ad2ef3619ba4.jpg" alt="حذاء رجالي 10" loading="lazy">
+        <div class="card-body"><h4>الأخوه اورجينال 10</h4><p>جري - نيون</p></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="close-lightbox" onclick="closeLightbox()">✕</button>
+    <img id="lightbox-img" src="" alt="معاينة الصورة">
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+  </div>
+
+  <footer>
+    <div class="badge">أ</div>
+    <div class="brand">عبد الله <span>&amp;</span> مصطفى</div>
+    <div class="sub">🏃 الأخوه اورجينال – للأحذية الرياضية الأصلية</div>
+    <div class="foot-ctas">
+      <a href="https://wa.me/201015288351" target="_blank" rel="noopener" class="whatsapp" title="واتساب مصطفى"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://whatsapp.com/channel/0029VbCVnRQIiRou2VTMPY1q" target="_blank" rel="noopener" class="whatsapp-channel" title="قناة واتساب"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com/share/1KJeyk148F/" target="_blank" rel="noopener" class="facebook" title="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/mostafa_abo_ali__store" target="_blank" rel="noopener" class="instagram" title="إنستجرام"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="copy">جميع الحقوق محفوظة &copy; 2026 – صنع بأخوة ❤️</div>
+  </footer>
+
+  <script>
+    // ظهور تدريجي لبطاقات المعرض عند التمرير
+    const cards = document.querySelectorAll('.card');
+    if('IntersectionObserver' in window){
+      const io = new IntersectionObserver((entries)=>{
+        entries.forEach(e=>{
+          if(e.isIntersecting){ e.target.classList.add
