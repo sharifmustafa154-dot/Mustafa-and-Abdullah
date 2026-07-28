@@ -1,0 +1,24 @@
+// server/db/schema.ts
+import { pgTable, serial, varchar, text, integer, decimal, timestamp } from 'drizzle-orm/pg-core';
+
+export const products = pgTable('products', {
+    id: serial('id').primaryKey(),
+    name: varchar('name', { length: 255 }).notNull(),
+    description: text('description'),
+    price: decimal('price', { precision: 10, scale: 2 }).notNull(),
+    category: varchar('category', { length: 50 }).notNull(),
+    image: varchar('image', { length: 500 }),
+    sizes: text('sizes').array(),
+    colors: text('colors').array(),
+    createdAt: timestamp('created_at').defaultNow(),
+});
+
+export const orders = pgTable('orders', {
+    id: serial('id').primaryKey(),
+    userId: integer('user_id'),
+    total: decimal('total', { precision: 10, scale: 2 }).notNull(),
+    status: varchar('status', { length: 50 }).default('pending'),
+    address: text('address').notNull(),
+    phone: varchar('phone', { length: 20 }).notNull(),
+    createdAt: timestamp('created_at').defaultNow(),
+});

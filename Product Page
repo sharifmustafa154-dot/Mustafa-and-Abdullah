@@ -1,0 +1,7 @@
+// app/product/[id]/page.tsx
+import { trpc } from '@/utils/trpc';
+
+export default function ProductPage({ params }: { params: { id: string } }) {
+    const { data: product } = trpc.product.getById.useQuery({ id: params.id });
+    // ... عرض التفاصيل
+}

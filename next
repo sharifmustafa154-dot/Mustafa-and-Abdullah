@@ -1,0 +1,36 @@
+app/
+├── page.tsx (الصفحة الرئيسية)
+├── product/
+│   └── [id]/
+│       └── page.tsx (تفاصيل المنتج)
+├── cart/
+│   └── page.tsx (عربة التسوق)
+├── checkout/
+│   └── page.tsx (الدفع)
+├── admin/
+│   ├── products/
+│   │   └── page.tsx (إدارة المنتجات)
+│   └── orders/
+│       └── page.tsx (الطلبات)
+├── api/
+│   └── trpc/
+│       └── [trpc]/
+│           └── route.ts (tRPC handler)
+└── layout.tsx (الهيكل العام)
+
+components/
+├── ProductCard.tsx
+├── CartItem.tsx
+├── Navbar.tsx (مع شريط التواصل)
+└── Footer.tsx
+
+server/
+├── db/
+│   ├── schema.ts (جداول Drizzle/Prisma)
+│   └── index.ts (اتصال قاعدة البيانات)
+└── trpc/
+    ├── router/
+    │   ├── product.ts
+    │   ├── cart.ts
+    │   └── order.ts
+    └── context.ts

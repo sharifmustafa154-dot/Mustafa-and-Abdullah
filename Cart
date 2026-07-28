@@ -1,0 +1,4 @@
+// components/Cart.tsx
+const { data: cart } = trpc.cart.get.useQuery();
+const addToCart = trpc.cart.add.useMutation();
+// ... منطق العربة
